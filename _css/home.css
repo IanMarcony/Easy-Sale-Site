@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'FonteTexto';
+    src: url('../_fonts/Tomorrow-Italic.ttf') ;
+}
+
+body{
+    background-image: linear-gradient(45deg, aqua,aquamarine);
+}
+
+
+figure#imagem img{
+    position: relative;    
+    left: 350px;
+    width: 500px;
+    height: 250px;
+}
+figure#icone img{
+    position: absolute;    
+    left: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+header#cabecalho figure#logo img{
+    position: absolute;
+    top: 10px;
+    left: 650px;
+    
+    width: 100px;
+    height: 100px;
+
+}
+header#cabecalho nav#menu{
+    margin-left: 500px;
+    display: block;    
+    
+}
+
+div#corpo {
+    margin-top: 250px;
+    background-color: rgb(70, 130, 180);    
+
+}
+header#cabecalho nav#menu ul{
+    list-style: none;
+    text-decoration-color: white;
+    text-transform: uppercase;
+    text-size-adjust: 20;    
+    font-family: Impact; 
+    position: absolute;
+    top:98px;
+    left:250px
+}
+nav#menu li{
+    
+    display: inline-block;
+    background-color:rgb(50,225,50 , 1);    
+    padding: 10px;   
+    padding-right: 80px;
+    padding-left: 60px;
+    margin: 0px;
+    transition: background-color 1s;
+}
+header#cabecalho nav#menu li:hover{
+
+    
+    background-color: rgba(50, 214, 124, 0.685);
+    
+}
+
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color:white;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    
+    text-decoration: underline;
+}
+
+div.titulo{
+    background-color: teal;
+    color:white;
+    padding-left: 0.3in;
+    font-family: 'FonteTexto';
+   
+}
+
+div.titulo a{
+    text-decoration-color: white;
+    color:white;
+    text-decoration: none;
+    font-family: 'FonteTexto';
+   
+}
+div.texto{
+    font-family: 'FonteTexto';
+    color: white;
+    padding-left: 0.1in;
+}
